@@ -1,3 +1,5 @@
+// Code made by Anton Björn Mayböck Helgason, trello email - antonm19@ru.is
+
 tableextension 50112 "FreeGiftsExt" extends "FreeGifts"
 {
     fields
@@ -13,6 +15,7 @@ tableextension 50112 "FreeGiftsExt" extends "FreeGifts"
         field(12; "Gift Reciever"; Text[50])
         {
             DataClassification = ToBeClassified;
+
             InitValue = 'Hello World';
 
             Caption = 'Gift Giver';
